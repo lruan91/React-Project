@@ -1,0 +1,20 @@
+/*TESTIMONIAL SECTION */
+h2.testimonial-title {
+  margin: 5px 0 20px;
+  text-align: center;
+}
+.testimonial-color {
+  background-color: #c8cff6;
+  border-radius: 8%;
+  line-height: 1.5;
+  margin: 200px auto 200px;
+  padding: 25px;
+}
+.carousel-inner {
+  line-height: 1.7;
+  text-align: center;
+  word-spacing: 3px;
+}
+.testimonial-img {
+  width: 100px;
+}

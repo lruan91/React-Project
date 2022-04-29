@@ -1,0 +1,38 @@
+/* SUBSCRIPTION SECTION */
+.price-main-container {
+  display: flex;
+  align-items: center;
+}
+#subscription {
+  text-align: center;
+}
+.subscription-section {
+  margin: 0 150px 100px 150px;
+}
+p.subscription-text {
+  line-height: 1.7;
+  /* margin: 10px 300px 100px; */
+  padding: 10px;
+  /* text-align: left; */
+  /* text-align: center; */
+  /* word-spacing: 3px; */
+}
+.price-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-price-boxes {
+  text-align: center;
+}
+.card-header {
+  background-color: #9d6cff;
+  color: #071E3D;
+}
+.card-body-home {
+  padding: 25px;
+}
+span {
+  color: #9d6cff;
+  font-weight: 600;
+}

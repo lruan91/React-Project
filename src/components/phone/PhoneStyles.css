@@ -1,0 +1,90 @@
+/* AWARDS */
+.container-awards {
+  display: flex;
+  justify-content: center;
+  /* margin-top: 200px; */
+}
+.award-icons-1 {
+  margin-right: 25px;
+  height: 10%;
+  width: 15%;
+}
+.award-icons-2 {
+  margin-right: 25px;
+  height: 8%;
+  width: 8%;
+}
+.award-icons-3 {
+  width: 6%;
+}
+/* SOCIAL PROOF */
+.stats-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 80px 0 80px;
+}
+.stats-item {
+  margin: 10px;
+  text-align: center;
+}
+.stats-item-1 {
+  color:var(--yellow-color);
+  font-size: 36px;
+  min-height: 100px; 
+} 
+.stats-term {
+  color: var(--almost-black);
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 16px;
+}
+.stats-text {
+  font-size: 14px;
+  color: var(--light-grey);
+  line-height: 23px;
+  font-weight: 300;
+  padding: 5px;
+} 
+
+
+/* APP SECTION */
+.app-content-container {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  /* margin: 0 150px 100px 150px; */
+}
+#app-h2 {
+  text-align: center;
+}
+.app-content {
+  line-height: 1.7;
+  margin-bottom: 80px;
+  word-spacing: 3px;
+}
+.app-section {
+  margin: 100px 0 100px;
+}
+/* PHONE */
+.phone-container {
+  display: flex;
+  justify-content: center;
+  margin: 25px 0 25px;
+}
+.app-container {
+  display: flex;
+  justify-content: center;
+  margin: 25px 0 30px;
+}
+.dl-btn-container {
+  display: relative;
+  margin-left: 42%;
+  margin-right: 10px;
+}
+.download-button {
+    margin-right: 10px;
+}
+.phone-img {
+  width: 20%;
+}

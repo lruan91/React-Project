@@ -1,0 +1,55 @@
+.hero {
+  width: 100%;
+  height: 100vh;
+  background: url('../../assets/img/world-tootle.png') no-repeat;
+  background-size: 30%;
+  background-position: 80%;
+}
+
+.hero .container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.hero .content {
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+  margin-left: 6rem;
+}
+
+.hero h1 {
+  color: #000;
+
+}
+
+.hero span {
+  color: var(--third-color);
+}
+
+/* My own code */
+.info-btn {
+  color: #fff;
+  background: var(--yellow-color);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding: 15px 20px;
+  border-radius: 5px;
+  transition: 0.3s;
+  transition-timing-function: ease;
+}
+.info-btn:hover {
+  background: var(--dark-blue);
+}
+/* End of my own code */
+
+
+@media screen and (max-width: 940px) {
+  .hero .content {
+    margin-left: 1rem;
+  }
+}

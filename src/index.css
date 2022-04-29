@@ -1,3 +1,25 @@
+:root {
+  --primary-color: #9d6cff;
+  --secondary-color: #e1e6ff;
+  --third-color: #c8cff6;
+  --primary-dark: #422ba1;
+  --primary-black: #303030;
+  --yellow-color: #fca120;
+  --dark-blue: #071E3D;
+  --light-grey: #939393;
+  --almost-black: #1B1C1E;
+
+}
+span {
+  color: var(--primary-color);
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* Remember to switch fonts over */
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +32,58 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+.container {
+  max-width: 1240px;
+  margin: auto;
+}
+
+button {
+  /* font-family: ; */
+  padding: .7rem 1.5rem;
+  margin: 1rem;
+  background-color: var(--primary-black);
+  border: 1px solid;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  display: flex;
+  border-radius: 4px;
+}
+
+/* button:hover {
+  background-color: #47dcff;
+  border: 1px solid #47dcff;
+} */
+
+@media screen and (max-width: 940px) {
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
 }
